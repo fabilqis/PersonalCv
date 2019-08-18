@@ -1,0 +1,185 @@
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 94%;
+    max-width: 1100px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content {
+    position: relative;
+    padding-top: 80px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+#header {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    line-height: none;
+    padding-top: 3em;
+    background: transparent;
+    font-weight: bolder;
+}
+
+#header h1 {
+    top: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+
+.logo {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+}
+
+.bio {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5em;
+}
+
+.bio a:hover {
+    text-shadow: 1px 1px 0 #37cdf5, 2px 2px 0 #1fc7f3, 3px 3px 0 #0cbdec;
+    transform: translate(-3px, -3px);
+}
+
+.works {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5em;
+}
+
+.works a:hover {
+    text-shadow: 1px 1px 0 #37cdf5, 2px 2px 0 #1fc7f3, 3px 3px 0 #0cbdec;
+    transform: translate(-3px, -3px);
+}
+
+.quote {
+    padding-top: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5em;
+    color: #222;
+}
+
+.marques {
+    font-family: 'Rubik', sans-serif;
+    font-size: 7em;
+    color: #222;
+}
+
+#nav {
+    position: absolute;
+    right: 0;
+    top: -15px;
+    height: 60px;
+}
+
+#nav ul li {
+    float: left;
+    list-style: none;
+}
+
+#nav ul li a {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.links a {
+    display: inline-block;
+    padding: 2.5em 2em 2em 2em;
+    text-decoration: none;
+    color: #222;
+}
+
+#positions .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 1px;
+    left: 43%;
+}
+
+#positions:hover .tooltiptext {
+    visibility: visible;
+}
+
+.avatar {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+a img:hover {
+    transform: translate(-3px, -3px);
+}
+
+/*-----------------------------------------*/
+
+.containers {
+    position: relative;
+    margin: 0 auto;
+    width: 94%;
+    max-width: 1100px;
+    font-family: 'Rubik', sans-serif;
+    width: 550px;
+    height: 550px;
+    overflow: auto;
+    text-align: center;
+}
+
+.contents {
+    position: relative;
+    padding-top: 80px;
+}
+
+.work1 {
+    width: 500px;
+    height: 300px;
+}
+
+#work1 span>a {
+    text-decoration: none;
+    color: #222;
+}
+
+.work2 {
+    padding-top: 0.5em;
+    width: 500px;
+    height: 300px;
+}
+
+#work2 span>a {
+    text-decoration: none;
+    color: #222;
+}
